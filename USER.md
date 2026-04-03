@@ -1,7 +1,7 @@
 # USER.md - About Your Human
 
-- **Name:** BeeGe
-- **What to call them:** BeeGe
+- **Name:** BIG
+- **What to call them:** BIG
 - **Pronouns:** （待补充）
 - **Timezone:** Asia/Shanghai
 - **Notes:** （待补充）

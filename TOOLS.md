@@ -2,6 +2,19 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+## 邮件
+
+- **当前使用:** QQ邮箱 804314819@qq.com
+- **SMTP:** smtp.qq.com:465
+- **IMAP:** imap.qq.com:993
+- **授权码:** ibxdfrsmjhzybgac
+- **macOS发邮件:** 需加 `SSL_CERT_FILE=/Users/yimozhang/Library/Python/3.13/lib/python/site-packages/certifi/cacert.pem`
+
+### 你的邮箱（发件人/收件人）
+- **QQ:** 804314819@qq.com
+- **Gmail:** yimocool@gmail.com
+- **默认规则:** 说"给我发邮件"时，同时发送到这两个邮箱
+
 ## SSH
 
 ### 成都阿里云服务器
