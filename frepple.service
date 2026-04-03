@@ -1,0 +1,18 @@
+[Unit]
+Description=FrePPLe Development Server
+After=network.target postgresql.service docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=root
+WorkingDirectory=/opt/frepple
+ExecStartPre=/usr/bin/docker rm -f frepple_dev
+ExecStart=/usr/bin/docker run --name frepple_dev --network host -v /opt/frepple:/workspace -e POSTGRES_USER=frepple -e POSTGRES_PASSWORD=frepple -e POSTGRES_DBNAME=frepple -e POSTGRES_HOST=127.0.0.1 frepple:dev python3 frepplectl.py runserver 0.0.0.0:8000
+ExecStop=/usr/bin/docker stop -t 30 frepple_dev
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
