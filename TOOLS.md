@@ -21,6 +21,15 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 - **地址:** `ssh root@47.108.50.206`
 - **私钥:** 本机 SSH 私钥（`~/.ssh/id_rsa` 或对应私钥）
 
+### FrePPLe
+- **地址:** http://47.108.50.206:8000/data/
+- **账号密码:**
+  | 用户名 | 密码 |
+  |--------|------|
+  | admin | `admin123` |
+  | test2 | `test2123` |
+  | frepple01~05 | `frepple123` |
+
 ## What Goes Here
 
 Things like:
