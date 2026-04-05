@@ -9,6 +9,8 @@
 - **插件:** excel, csv, json, xml, html, odflog, xsdgraph, epsogis, doorld 等
 - **构成:** 主应用(frepple/) + 架构(arch/) + 工具(utils/) + 贡献代码(contrib/) + 文档(docs/) + 测试(tests/)
 - **版本控制:** Git
+- **Agent目录:** `frepple/agents/` — 项目专属Agent定义（10个精选）
+- **Git仓库:** `git@github.com:yyymmmzzz/frepple.git`
 
 ### 上饶光学（拍频 + 鑫望）
 
@@ -189,6 +191,12 @@
 - **密码:** Pp123456
 - **邮箱:** 315098779@qq.com
 
+### 桔子商圈 Coze.cn
+- **连接:** coze.cn
+- **账号:** 6443手机用户#nodabJ
+- **密码:** 6E@i64xjtAk~9qJ
+- **备注:** 客户项目
+
 ### 邮件
 - **发送/读取邮箱:** 804314819@qq.com
 - **授权码:** ibxdfrsmjhzybgac
@@ -215,6 +223,13 @@
 - **扩展:** 自定义属性(registerAttribute)→Python钩子(5种)→Django App
 - **Python钩子类型:** 排程前/资源分配/约束检查/排程后/异常处理
 
+### 工作区备份
+- **GitHub仓库:** `git@github.com:yyymmmzzz/openclaw-mbp-newx.git`
+- **自动备份:** 每6小时自动执行 backup.py
+- **备份内容:** AGENTS.md, SOUL.md, TOOLS.md, IDENTITY.md, USER.md, MEMORY.md 等核心配置
+- **手动备份触发:** `python3 ~/.openclaw/skills/workspace-backup/scripts/backup.py`
+- **规则:** 每次配置变更后立即手动备份一次
+
 ---
 
-_最后更新: 2026-04-04 21:15_
+_最后更新: 2026-04-05 14:53_
